@@ -1,0 +1,90 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #d3d3d35e;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  
+
+}
+.logo
+{
+  margin-top: 3px;
+  width: 200px;
+}
+.header__examen{
+    width: 100%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Close{
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 0px;
+    font-size: 10px;
+    font-weight: bold;
+    width:100px;
+    height: 35px;
+    margin: 4px;
+    background-color: #f06445;
+    border-color: transparent;
+    transition: 0.5s;
+
+ 
+}
+
+.Close:hover{
+    font-size: 8.1px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.Preguntas{
+    width: 90%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 180px 0 0 70px;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.3);
+
+}
+.question{
+  width: 100%;
+  text-align: left;
+  padding: 90px;
+  padding-bottom: 30px;
+  border-bottom: rgba(0, 0, 0, 0.3) dotted;
+  border-radius: 30px;
+}
+.alter{
+  text-align: left;
+  padding: 10px;
+}
+.question__img{
+  width: 200px;
+  margin-left: 35%;
+}

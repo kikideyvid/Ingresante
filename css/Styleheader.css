@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  margin-top: 3px;
+  width: 200px;
+}
+
+.Login{
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 0px;
+    font-size: 10px;
+    font-weight: bold;
+    width:100px;
+    height: 35px;
+    margin: 4px;
+    background-color: #f06445;
+    border-color: transparent;
+    transition: 0.5s;
+
+ 
+}
+
+.Login:hover{
+    font-size: 8.1px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.Port{
+    
+    width: 140px;
+    height: 140px;
+    margin-top: 80px;
+    margin-left: 225px;
+    margin-bottom: 15px;
+}
+.Port__Dimen{
+    width: 100%;
+    height: 100%;
+    
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  padding: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.overlay
+{
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 850px;
+  background-image: url(/imagenes/chica-joven-trabaja-computadora-piensa\ 2.jpg);
+  background-size: 135% 100%; 
+  background-position: -100px -190px ;
+  background-repeat: no-repeat;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: absolute;
+  top: 220px;
+  left: 5%;
+}
+
+.text h2
+{
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+ 
+}
+.text h3
+{
+  font-size: 2em;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.text p
+{
+  font-size: 0.8em;
+  color: #ffffff;
+  margin: 10px 0;
+  font-weight: 100;
+  max-width: 250px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-left: 15%;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 0.8em;
+  background: #ffffff;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight:bold;
+  margin-top: 10px;
+  color: #f06445;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  border-radius: 5px;
+  width: 160px;
+  height: 35px;
+  margin-left: 29%;
+}
+.text a:hover
+{
+  letter-spacing: 2px;
+}
+
+.social
+{
+ 
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 430px;
+  height: 60px;
+  margin-top: 920px;
+  position: absolute;
+
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 10px;
+  
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-20px);
+} .carrusel {
+  height: 580px;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+  margin-top: 430px;
+  justify-content: center;
+
+}
+
+.carrusel-item {
+  min-width: 90px;
+  max-width: 120px;
+  height: 130px;
+  cursor: pointer;
+}
+
+.carrusel-item-imagen{
+  width: 100%;
+  height: 100%;
+}
+.part__end{
+  width: 100%;
+  background-color: #ebe9e6;
+  height: 600px;
+  display: flex
+}
+.part__end__info{
+  margin-top: 30px;
+  margin-left:10px;
+  margin-right:10px ;
+  width: 839px;
+  height: 200px;
+  text-align: center;
+}
+.part__end__info h2
+{
+  font-size: 1em;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+.part__end__info p
+{
+  font-size: 0.8em;
+  color: #000000;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.prueba{
+  width: 220px;
+  height: 200px;
+  position: absolute;
+  margin-top:320px;
+  margin-left: 85px;
+}
+.logo__footer{
+ position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.contenedorstar{
+  position: absolute;
+    margin: 140px 10px 100px 20px;
+    width: 90%;
+    height: 100px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.star{
+  font-size: 0.4em;
+  margin: 8px 0;
+  background-color:#f9cdcd;
+  border-radius: 1em;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.star1{
+  align-self: flex-start;
+}
+.star3{
+  align-self: flex-end;
+}
+.text__rec{
+  font-weight: bold;
+  color: hsl(0, 0%, 0%);
+  margin: 8px 5px 8px 10px;
+  text-align: center;
+}
+.text__info{
+ 
+  margin: 7px;
+}
+.container__minlog{
+  width: 20px;
+  height: 15px;
+
+}
+@media screen and (min-width:768px){
+  header .logo{
+    font-size: 80px;
+    width: 250px;
+  }
+  .showcase{
+    padding: 48px;
+  }  
+  .overlay{
+    height: 900px;
+  }
+  .Login{
+    font-size: 15px;
+    width:136px;
+    height: 40px;
+  }
+  .Login:hover{
+    font-size: 14px;
+ 
+  }
+  .text{
+    top: 280px;
+    left: 20px;
+    text-align: center;
+  }
+  .text h2, .text h3{
+    font-size: 2em;
+  }
+ .text p{
+  font-size: 0.9em;
+  max-width: 235px;
+ }
+ .text a{
+  font-size: 1.5em;
+  margin-top: 10px;
+  width: 215px;
+  height: 40px;  
+  margin-left: 1%;
+ }
+  .Port{
+    width: 250px;
+    height: 250px;
+    margin-left: 499px;
+    margin-top: 90px;
+  }
+  .carrusel{
+    height: 530px;
+  }
+  .carrusel-items{
+    margin-top: 355px;
+  }
+  .carrusel-item{
+    min-width: 190px;
+    max-width: 412px;
+    height: 135px;
+  }
+  .part__end{
+    height: 530px;
+  }
+  .part__end__info{
+    margin-top: 60px;
+    margin-left: 400px;
+    text-align:left;
+    width: 350px;
+  }
+  .part__end__info h2{
+    font-size: 1.5em;
+  }
+  .part__end__info p{
+    font-size: 1em;
+  }
+  .contenedorstar{
+    width: 45%;
+    margin: 225px 62px 89px 400px;
+  }
+  .star{
+    width: 150px;
+    height: 180px;
+    font-size: 0.5em;
+  }
+  .container__minlog{
+    width: 17px;
+    height: 36px;
+  }
+  .prueba{
+    width: 400px;
+    height: 400px;
+    margin-top: 45px;
+    margin-left: 10px;
+   }
+  .social{
+    top: 430px;
+
+  }
+}
+@media screen and (min-width:1440px) {
+
+  header .logo{
+    font-size: 50px;
+    width: 320px;;
+  }
+  .showcase{
+    padding: 48px;
+  }  
+  .overlay{
+    height: 914px;
+  }
+  .Login{
+    font-size: 15px;
+    width:136px;
+    height: 40px;
+  }
+  .Login:hover{
+    font-size: 14px;
+ 
+  }
+  .text{
+    top: 230px;
+    left: 150px;
+  }
+  .text h2, .text h3{
+    font-size: 3.5em;
+    text-align: left;
+  }
+ .text p{
+  font-size: 1.5em;
+  max-width: 540px;
+  text-align: left;
+  margin-left: 1%;
+ }
+ .text a{
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-left: -300px;
+  width: 215px;
+  height: 40px;  
+ }
+  .Port{
+    width: 440px;
+    height: 840px;
+    margin-left: 950px;
+    margin-top: 50px;
+  }
+  .carrusel{
+    height: 5px;
+  }
+  .carrusel-items{
+    margin-top: -180px;
+  }
+  .part__end{
+    height: 650px;
+  }
+  .carrusel-item{
+    min-width: 190px;
+    max-width: 412px;
+    height: 135px;
+  }
+  .part__end__info{
+    margin-top: 65px;
+    margin-left: 620px;
+    text-align:left;
+    width: 800px;
+  }
+  .part__end__info h2{
+    font-size: 2em;
+  }
+  .part__end__info p{
+    font-size: 1.5em;
+  }
+  .contenedorstar{
+    width: 55%;
+    margin: 250px 62px 89px 624px;
+  }
+  .star{
+    width: 280px;
+    height: 200px;
+    font-size: 0.9em;
+  }
+  .container__minlog{
+    width: 50px;
+    height: 40px;
+  }
+  .prueba{
+    width: 500px;
+    height: 520px;
+    margin-top: 53px;
+  }
+  .social{
+    top: 572px;;
+
+  }
+}
+@media screen and (min-width:1601px){
+  header .logo{
+    font-size: 35px;
+  }
+  .showcase{
+    padding: 48px;
+  }  
+  .overlay{
+    height: 1000px;
+  }
+  .Login{
+    font-size: 15px;
+    width:136px;
+    height: 40px;
+  }
+  .Login:hover{
+    font-size: 14px;
+  }
+  .text{
+    top: 240px;
+    left: 230px;
+  }
+  .text h2, .text h3{
+    font-size: 4.5em;
+  }
+ .text p{
+  font-size: 1.5em;
+  max-width: 550px;
+ }
+ .text a{
+  font-size: 1.5em;
+  margin-top: 40px;
+  width: 215px;
+  height: 40px;  
+ }
+  .Port{
+    width: 600px;
+    height: 600px;
+    margin-left: 1250px;
+    margin-top: 80px;
+  }
+  .carrusel{
+    height: 330px;
+  }
+  .carrusel-items{
+    margin-top: 110px;
+  }
+  .part__end{
+    height: 850px;
+  }
+  .carrusel-item{
+    min-width: 300px;
+    max-width: 500px;
+    height: 180px;
+  }
+  .part__end__info{
+    margin-top: 90px;
+    margin-left: 1050px;
+    text-align:left;
+    width: 1000px;
+  }
+  .part__end__info h2{
+    font-size: 3.6em;
+  }
+  .part__end__info p{
+    font-size: 1.9em;
+  }
+  .contenedorstar{
+    width: 43%;
+    margin: 390px 0px 0px 1050px;
+  }
+  .star{
+    width: 500px;
+    height: 200px;
+    font-size: 1.5em;
+  }
+  .container__minlog{
+    width: 50px;
+    height: 50px;
+  }
+  .prueba{
+    width: 800px;
+    height: 800px;
+    margin-top: 53px;
+    margin-left: 150px;
+  }
+  .social{
+    top: 900px;
+  }
+  
+}
